@@ -1,0 +1,28 @@
+{
+  "name": "webpack_study",
+  "version": "1.0.0",
+  "description": "webpack の勉強",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zozf/webpack_study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zozf/webpack_study/issues"
+  },
+  "homepage": "https://github.com/zozf/webpack_study#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
